@@ -1,0 +1,24 @@
+:root{
+ --bleu-90:#012442;
+ --beige-70:#E38664;
+}
+.card .card-header ul li a,
+.card .card-header .card-title,
+  .card .card-header ul li{
+color: #FFA566
+;
+}
+.card .card-header{
+  background-color: var(--bleu-90);
+  ;
+}
+.card .card-body h5{
+  color: var(--bleu-90);
+}
+.card .card-body h6{
+  color: var(--beige-70);
+}
+
+#info{
+  display: none;
+}

@@ -1,0 +1,291 @@
+:root{
+ --bleu-90:#012442;
+ --beige-70:#E38664;
+ --orange :#F57328;
+
+}
+
+.btn-beige{
+  background-color: var(--beige-70);
+
+}
+.bg-beige{
+  background: var(--beige-70) !important;
+}
+.title{
+  color: var(--orange) !important;
+  border-left: 3px var(--orange) solid;
+  font-size: unset;
+  font-weight: 500;
+  background: #FFE9A0;
+  line-height: 1.5;
+}
+/* .edit{
+  transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  -moz-transition: all .2s ease-in;
+  -ms-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+} */
+/* .loader-container{
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+} */
+.inter[label]{
+  font-size: .80rem;
+  color: orangered;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+#su{
+  background-color: red;
+}
+/* .form-select{
+  overflow-x: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+} */
+.msg-update{
+  background-color: #277BC0;
+}
+.msg-remplir{
+  background-color: #F87474;
+}
+#theme,#valid{
+  display: none;
+}
+.autre{
+  position: relative;
+}
+.autre::before{
+  position: absolute;
+  content: "";
+  width: 4%;
+  height: .22rem;
+  background-color: blue;
+  top: 100%;
+  left: 48%;
+
+}
+.table tbody tr:nth-child(odd){
+background-color: #f1f5f7;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"]{
+  padding-left: 0.5rem;
+}
+input::placeholder{
+  text-transform: capitalize;
+}
+ /* .card>.card-header{
+  background-color: var(--bleu-90);
+  ;
+} */
+/*.card>.card-header>*{
+  color: var(--beige-70);
+} */
+.card .card-body .title{
+  color: var(--beige-70);
+}
+
+#authen{
+  background: url("../images/back.jpg");
+  height: 100vh;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#authen [type="checkbox"],#authen label {
+  cursor: pointer;
+}
+
+.widgets .card .card-body:hover .widget-user a{
+  background-color: red;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 5%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  transition: all 5s ease ;
+  -webkit-transition: all 5s ease ;
+  -moz-transition: all 5s ease ;
+  -ms-transition: all 5s ease ;
+  -o-transition: all 5s ease ;
+}
+.widget-user {
+  position: relative;
+}
+.widget-user a{
+display: none;
+text-align: center;
+padding-top: 5%;
+width: 0%;
+}
+
+
+
+
+#top-page{
+  background: url("../images/back.jpg");
+  height: 35em;
+  background-position: center;
+position: relative;
+overflow: hidden;
+/* overflow-y: hidden;
+overflow-x: visible; */
+}
+#top-page::after{
+  position: absolute;
+  content: "";
+  background-color: black;
+  opacity: .6;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 600;
+}
+#top-page nav{
+  z-index: 700;
+}
+#top-page nav ul li{
+  position: relative;
+}
+#top-page nav ul li::before{
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 100%;
+  background-color: var(--bs-white);
+  width: 0%;
+  height: 0.15rem;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+
+}
+#top-page nav ul li:hover::before{
+  width: 100%;
+  height: 0.15rem;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  /* content: attr(d); */
+}
+#top-page ul li a{
+  color: var(--bs-white);
+  font-weight: 500;
+}
+#desc-top{
+  position: absolute;
+  top: 30%;
+  left: 12px;
+  width: 100%;
+  z-index: 660;
+}
+#top-page #info{
+  position: absolute;
+  top:80%;
+  left: 12px;
+  width: 100%;
+  z-index: 660;
+
+}
+#info .card{
+  margin-top: 2.5rem;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+}
+#info .card:hover{
+  margin-top: -5.5rem;
+  cursor: pointer;
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+}
+.list-group li{
+  letter-spacing: 1px;
+}
+
+.super-info .card{
+  background-color: initial;
+  transition: all .5s ease-in-out ;
+  -webkit-transition: all .5s ease-in-out ;
+  -moz-transition: all .5s ease-in-out ;
+  -ms-transition: all .5s ease-in-out ;
+  -o-transition: all .5s ease-in-out ;
+}
+
+.super-info .card:hover{
+   background-color: #E38664;
+   transition: all .5s ease-in-out ;
+   -webkit-transition: all .5s ease-in-out ;
+   -moz-transition: all .5s ease-in-out ;
+   -ms-transition: all .5s ease-in-out ;
+   -o-transition: all .5s ease-in-out ;
+   cursor: pointer;
+}
+
+#definition{
+    background-color: #abb8c3;
+  }
+
+  #point{
+    background-color: var(--bs-gray-300);
+    width: 85%;
+    position: relative;
+
+  }
+  #point h4{
+    background-color: var(--bs-gray-300);
+    width: max-content;
+    position: absolute;
+    top: 100%;
+    left: 43%;
+    line-height: 2.3rem;
+    border-bottom-right-radius: 43%;
+    border-bottom-left-radius: 43%;
+
+}
+  #point p{
+    font-size: 0.70rem;
+
+  }
+
+.voyage .caracter{
+  font-size: 0.75rem;
+}
+  .voyage .card-body{
+    position: relative;
+  }
+  .voyage h5:first-child{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    line-height: 2.5rem;
+    width: 100%;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
